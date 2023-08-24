@@ -1,0 +1,196 @@
+* {
+    outline: 1px dotted rgba(255,0,0,0);
+    margin: 0;
+    padding: 0;  
+}
+
+*::selection {background-color: lightgray;}
+
+body,html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*------------------------------- Warning Message
+*/
+
+.warning {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 200px;
+    padding: 15px 12px 15px 15px;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    pointer-events: none;
+}
+
+.warning > p {
+    font-size: 13px;
+    color: rgb(187, 187, 187);
+}
+
+
+/*------------------------------- Header
+*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    padding: 30px 0 30px 0;
+    margin: 0 0 70px 0;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/*------------------------------- Main
+*/
+
+main {
+    width: 550px;
+}
+
+.image-container {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 17px;
+}
+
+.image-container > img {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+
+/*------------------------------- Info Container
+*/
+
+.info-container {
+    margin: 17px 2px 80px 2px;
+}
+
+
+/*------------------------------- Social Media Buttons
+*/
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 17px 0 0;
+
+}
+
+.buttons-container > div {
+    display: flex;
+    justify-content: space-between;
+    width: 55px;
+}
+
+.buttons-container > div > img {
+    height: 22px;
+}
+
+.buttons-container > p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+}
+
+
+/*------------------------------- Text description
+*/
+
+.post-description {
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 17px 0 12px 0;
+}
+
+.post-timestamp {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/*------------------------------- Poem Container
+*/
+
+.poem-container {
+    margin: 100px 50px 110px 50px;
+    padding: 25px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.poem-title {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Spectral', serif;
+    line-height: 130%;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.poem {
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0 0 10px 0;
+}
+
+.poem-timestamp {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 15px 0 0 0;
+}
+
+
+/*------------------------------- Footer
+*/
+
+footer {
+    margin: 100px 0 30px 0;
+}
+
+footer > a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
