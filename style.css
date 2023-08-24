@@ -17,6 +17,13 @@ body {
 }
 
 
+/*----------------------   Hide scrollbar
+*/
+
+*::-webkit-scrollbar {display: none;}
+* {-ms-overflow-style: none; scrollbar-width: none;}
+
+
 /*------------------------------- Warning Message
 */
 
@@ -50,7 +57,6 @@ header {
     height: 35px;
     padding: 30px 0 30px 0;
     margin: 0 0 70px 0;
-    pointer-events: none;
 }
 
 h1 {
@@ -63,6 +69,11 @@ h2 {
     font-size: 9px;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+header > a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -202,17 +213,33 @@ footer > a {
 }
 
 
+/*------------------------------- About
+*/
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    font-family: 'Spectral', serif;
+    line-height: 150%;
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+.back-button {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
 
 @media only screen and (max-width: 600px) {
-
-    /*----------------------   Hide scrollbar
-    */
-
-    *::-webkit-scrollbar {display: none;}
-    * {-ms-overflow-style: none; scrollbar-width: none;}
 
     /*----------------------   Other
     */
@@ -266,6 +293,15 @@ footer > a {
 
     .poem-timestamp {
         font-size: 8px;
+    }
+
+    .about {
+        font-size: 14px;
+        margin: 30px 20px 50px 20px;
+    }
+
+    .back-button > p {
+        font-size: 14px;
     }
 
 }
