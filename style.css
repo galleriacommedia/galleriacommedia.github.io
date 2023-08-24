@@ -50,6 +50,7 @@ header {
     height: 35px;
     padding: 30px 0 30px 0;
     margin: 0 0 70px 0;
+    pointer-events: none;
 }
 
 h1 {
@@ -193,4 +194,65 @@ footer > a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    /*----------------------   Hide scrollbar
+    */
+
+    *::-webkit-scrollbar {display: none;}
+    * {-ms-overflow-style: none; scrollbar-width: none;}
+
+    /*----------------------   Other
+    */
+
+    .warning {
+        width: 138px;
+        padding: 10px 2px 10px 10px;
+    }
+
+    .warning > p {font-size: 11px;}
+
+    header {margin: 0 0 20px 0;}
+
+    main {width: 95vw;}
+
+    .image-container {
+        width: 95vw;
+        height: 95vw;
+        border-radius: 17px;
+    }
+
+    .buttons-container {
+        margin: 0 38px 0 30px;
+    }
+
+    .buttons-container > div {
+        width: 40px;
+    }
+
+    .buttons-container > div > img {
+        height: 15px;
+    }
+
+    .buttons-container > p {
+        font-size: 12px;
+    }
+
+    .post-description {
+        font-size: 14px;
+        margin: 17px 30px 12px 30px;
+    }
+
+    .post-timestamp {
+        font-size: 8px;
+        margin: 0 30px 0 30px;
+    }
+
 }
