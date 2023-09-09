@@ -2,14 +2,11 @@
     outline: 1px dotted rgba(255,0,0,0);
     margin: 0;
     padding: 0;
-    scroll-snap-type: y proximity;
 }
 
 *::selection {background-color: lightgray;}
 
-body,html {
-    font-family: 'Inter', sans-serif;
-}
+body,html {font-family: 'Inter', sans-serif;}
 
 body {
     display: flex;
@@ -83,8 +80,6 @@ header > a {
 
 main {width: 550px;}
 
-main > div {scroll-snap-align: center;}
-
 .image-container {
     width: 550px;
     height: 550px;
@@ -107,9 +102,7 @@ main > div {scroll-snap-align: center;}
 /*------------------------------- Info Container
 */
 
-.info-container {
-    margin: 17px 2px 80px 2px;
-}
+.info-container {margin: 22px 25px 90px 25px;}
 
 
 /*------------------------------- Social Media Buttons
@@ -129,9 +122,7 @@ main > div {scroll-snap-align: center;}
     width: 55px;
 }
 
-.buttons-container > div > img {
-    height: 22px;
-}
+.buttons-container > div > img {height: 22px;}
 
 .buttons-container > p {
     font-size: 14px;
@@ -192,18 +183,14 @@ main > div {scroll-snap-align: center;}
     margin: 15px 0 0 0;
 }
 
-.poem > b {
-    font-weight: 600;
-}
+.poem > b {font-weight: 600;}
 
 
 
 /*------------------------------- Footer
 */
 
-footer {
-    margin: 100px 0 30px 0;
-}
+footer {margin: 100px 0 30px 0;}
 
 footer > a {
     font-size: 15px;
@@ -262,25 +249,15 @@ footer > a {
         border-radius: 17px;
     }
 
-    .info-container {
-        margin: 15px 2px 80px 2px;
-    }
+    .info-container {margin: 15px 2px 80px 2px;}
 
-    .buttons-container {
-        margin: 0 38px 0 30px;
-    }
+    .buttons-container {margin: 0 38px 0 30px;}
 
-    .buttons-container > div {
-        width: 40px;
-    }
+    .buttons-container > div {width: 40px;}
 
-    .buttons-container > div > img {
-        height: 15px;
-    }
+    .buttons-container > div > img {height: 15px;}
 
-    .buttons-container > p {
-        font-size: 12px;
-    }
+    .buttons-container > p {font-size: 12px;}
 
     .post-description {
         font-size: 14px;
@@ -292,17 +269,13 @@ footer > a {
         margin: 0 30px 0 30px;
     }
 
-    .poem-timestamp {
-        font-size: 8px;
-    }
+    .poem-timestamp {font-size: 8px;}
 
     .about {
         font-size: 14px;
         margin: 30px 20px 50px 20px;
     }
 
-    .back-button > p {
-        font-size: 14px;
-    }
+    .back-button > p {font-size: 14px;}
 
 }
