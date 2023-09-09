@@ -37,11 +37,13 @@
         <h2>Tristan Van Garsse</h2>
     </header>
 
+
+
     <main>
 
         <div>
             <div class="image-container">
-                <img draggable="false" src="images/JPG/img0020.jpg" loading="lazy">
+                <img class="lazyload" draggable="false" src="images/JPG/placeholder.jpg" data-src="images/JPG/img0020.jpg">
             </div>
             <div class="info-container">
                 <div class="buttons-container">
@@ -429,5 +431,11 @@
     <footer>
         <a href="about.html"><p>about</p></a>
     </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+    <script>lazyload();</script>
+
 </body>
 </html>
