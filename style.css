@@ -1,7 +1,8 @@
 * {
     outline: 1px dotted rgba(255,0,0,0);
     margin: 0;
-    padding: 0;  
+    padding: 0;
+    scroll-snap-type: y mandatory;
 }
 
 *::selection {background-color: lightgray;}
@@ -82,7 +83,10 @@ header > a {
 
 main {
     width: 550px;
+    scroll-snap-type: y mandatory;
 }
+
+main > div {scroll-snap-align: center;}
 
 .image-container {
     width: 550px;
