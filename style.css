@@ -105,31 +105,6 @@ main {width: 550px;}
 .info-container {margin: 22px 25px 90px 25px;}
 
 
-/*------------------------------- Social Media Buttons
-*/
-
-.buttons-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 17px 0 0;
-
-}
-
-.buttons-container > div {
-    display: flex;
-    justify-content: space-between;
-    width: 55px;
-}
-
-.buttons-container > div > img {height: 22px;}
-
-.buttons-container > p {
-    font-size: 14px;
-    font-weight: 500;
-    text-align: right;
-}
-
 
 /*------------------------------- Text description
 */
@@ -251,16 +226,8 @@ footer > a {
 
     .info-container {margin: 15px 2px 80px 2px;}
 
-    .buttons-container {margin: 0 38px 0 30px;}
-
-    .buttons-container > div {width: 40px;}
-
-    .buttons-container > div > img {height: 15px;}
-
-    .buttons-container > p {font-size: 12px;}
-
     .post-description {
-        font-size: 14px;
+        font-size: 15px;
         margin: 14px 30px 12px 30px;
     }
 
