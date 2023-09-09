@@ -2,6 +2,7 @@
     outline: 1px dotted rgba(255,0,0,0);
     margin: 0;
     padding: 0;
+    scroll-snap-type: y proximity;
 }
 
 *::selection {background-color: lightgray;}
@@ -80,9 +81,7 @@ header > a {
 /*------------------------------- Main
 */
 
-main {
-    width: 550px;
-}
+main {width: 550px;}
 
 main > div {scroll-snap-align: center;}
 
@@ -307,15 +306,3 @@ footer > a {
     }
 
 }
-
-
-
-@media (hover: none) {
-    * {
-        scroll-snap-type: y mandatory;
-    }
-
-    main {
-        scroll-snap-type: y mandatory;
-    }
-  }
