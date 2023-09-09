@@ -36,7 +36,7 @@
 
 
     <div class="version">
-        <p>v23090903</p>
+        <p>v23090904</p>
     </div>
 
 
@@ -303,11 +303,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-<!--<script>lazyload();</script>-->
+    <script>lazyload();</script>
     <script>
-        lazyload(images, {
+        let images = document.querySelectorAll(".lazyload");
+        new LazyLoad(images, {
             root: null,
-            rootMargin: "200px",
+            rootMargin: "0px",
             threshold: 0
         });
     </script>
