@@ -144,6 +144,10 @@ main {width: 550px;}
     text-transform: uppercase;
 }
 
+.gray {
+    color: rgb(193, 193, 193);
+}
+
 
 /*------------------------------- Poem Container
 */
