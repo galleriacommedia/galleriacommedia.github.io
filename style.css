@@ -229,6 +229,9 @@ footer > a {
 
 @media only screen and (max-width: 600px) {
 
+    *::-webkit-scrollbar {display: none;}
+    * {-ms-overflow-style: none; scrollbar-width: none;}
+    
     /*----------------------   Other
     */
 
